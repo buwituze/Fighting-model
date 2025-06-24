@@ -18,7 +18,14 @@
 
  - Run: `python app.py`
 
-### API Output:
+### Usage:
+
+**Inputs:**
+
+- Threshold for classification: `0.5` (use this as default for optimal classification)
+- Video file: accepts single or multiple files of type `.mp4`, `.avi`, `.mov` 
+
+### API Output Example:
 
  - "prediction": "noFight",
  - "probability": 0.4763191044330597,
